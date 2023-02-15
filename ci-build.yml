@@ -8,11 +8,6 @@ on:
     types:
       - opened
       - synchronize
-
-defaults:
-  run:
-    shell: bash
-
 jobs:
   static-analysis:
     name: Static analysis
